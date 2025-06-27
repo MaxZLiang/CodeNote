@@ -86,16 +86,9 @@ asmlinkage __visible void __init __no_sanitize_address start_kernel(void)
     // 更多初始化步骤...
 }
 这段代码主要负责初始化内核，并启动操作系统的核心功能。
+```
 
-
-
-User
-帮我写完， 需要全部代码的中文注释
-ChatGPT
-下面继续注释 start_kernel 函数的代码：
-
-c
-Copy code
+```c
     build_all_zonelists(NULL);  // 构建所有内存区域列表
     page_alloc_init();  // 初始化页面分配器
 
